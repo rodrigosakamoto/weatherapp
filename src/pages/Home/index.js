@@ -3,6 +3,7 @@ import Icon from 'react-native-vector-icons/Feather';
 import {format} from 'date-fns';
 import ptBR from 'date-fns/locale/pt-BR';
 import Geolocation from '@react-native-community/geolocation';
+import {OPENWEATHER_API_KEY} from '@env';
 
 import WeatherDetailsItem from '../../components/WeatherDetailsItem';
 
@@ -40,7 +41,7 @@ const Home = () => {
       params: {
         lon: longitude,
         lat: latitude,
-        appid: 'c1b0e433f08ff834b80bb722bf8cdad8',
+        appid: OPENWEATHER_API_KEY,
         lang: 'pt_br',
         units: 'metric',
       },

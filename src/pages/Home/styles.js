@@ -2,7 +2,7 @@ import styled from 'styled-components/native';
 import LinearGradient from 'react-native-linear-gradient';
 
 export const Background = styled(LinearGradient).attrs((props) => ({
-  colors: props.hour > 18 ? ['#7159c1', '#333'] : ['#7159c1', '#19c3fb'],
+  colors: props.hour >= 18 ? ['#7159c1', '#333'] : ['#7159c1', '#19c3fb'],
 }))`
   flex: 1;
 `;
