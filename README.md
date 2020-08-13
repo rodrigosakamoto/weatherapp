@@ -33,17 +33,17 @@ Além disto é bom ter um editor para trabalhar com o código como [VSCode](http
 ## 💾 Instalação
 
 ```bash
-	# Acesse a pasta do projeto no terminal/cmd
-	$ cd weatherapp
+# Acesse a pasta do projeto no terminal/cmd
+$ cd weatherapp
 
-	# Instale as dependências
-	$ yarn
+# Instale as dependências
+$ yarn
 
-  # Instale o app no emuulador
-  $ yarn android
+# Instale o app no emulador
+$ yarn android
 
-	# Execute a aplicação
-	$ yarn start
+# Execute a aplicação
+$ yarn start
 ```
 
 ---
